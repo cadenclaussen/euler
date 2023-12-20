@@ -1,4 +1,4 @@
-import palindrome
+from helpers import palindrome
 
 for index in range(998001):
     if palindrome.isPalindrome(998001 - index):

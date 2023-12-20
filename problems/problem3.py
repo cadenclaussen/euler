@@ -1,4 +1,4 @@
-import primes
+from helpers import primes
 n = 600851475143
 
 ps = primes.genprimes(1000000)

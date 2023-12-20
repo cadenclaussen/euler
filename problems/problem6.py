@@ -1,4 +1,4 @@
-import sum
+from helpers import sum
 
 total = 0
 
