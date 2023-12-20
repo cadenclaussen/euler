@@ -1,10 +1,10 @@
 import primes
 n = 600851475143
 
-ps = primes.primeslist
-ofps = ps[len(ps) - index - 1]
+ps = primes.genprimes(1000000)
 
 for index in range(len(ps)):
-    if n % ofps == 0:
-        print(ofps)
+    if n % ps[len(ps) - index - 1] == 0:
+        print(ps[len(ps) - index - 1])
         break
+    
